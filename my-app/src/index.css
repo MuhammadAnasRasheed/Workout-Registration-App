@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;                 /* Remove default margin */
+  padding: 0;                /* Remove default padding */
+  font-family: Arial, sans-serif; /* Set default font */
+  background-color:#eeeeee; /* Light gray background */
+  color: #000000;               /* Default text color */
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar styles */
+.Navbar {
+  display: flex ;            /* Arrange items horizontally */
+  align-items: center;       /* Center items vertically */
+  justify-content: center; /* Space between logo and menu */
+  background-color: #FFFFFF; /* Blue background */
+  padding: 10px 20px;        /* Vertical and horizontal padding */
+  color: white;              /* Text color */
+}
+
+.Navbar a {
+  color: #000000;              /* Links white */
+  text-decoration: none;     /* Remove underline */
+  margin: 0 10px;            /* Space between links */
+}
+input.error{
+  border: 1px solid red;
+}
+
+.pages{
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.Home{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+
+.create{
+  background-color: #ffffff;
+  padding: 25px;
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  position: relative;
+  margin-top:22px ;
+}
+
+input{
+  display: block;
+  padding: 5px;
+  margin: 5px 0px;
+  width: 90%;
+  height: 25px;
+  box-shadow: none;
+}
+label{
+  display: block;
+  padding: 5px;
+}
+.create button{
+  margin: 20px 5px;
+  padding: 3px 15px;
+  border-color: white;
+  display: flex;
+  justify-content: center;
+  background-color:darkolivegreen;
+  color: white;
+  box-shadow: none;
+  cursor: pointer;
+  position: absolute;
+  right: 90px;
+
+}
+
+.create button:hover{
+  background-color:lightgreen;
+  color: black;
+}
+.form-heading{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+  color: darkolivegreen;
+}
+
+.workoutdetails{
+  display: block;
+  width: 70%;
+  height: 230px;
+  background-color: #FFFFFF;
+  margin-left: 40px;
+  position: relative;
+}
+
+.loads,.reps,.createdat{
+  padding-left: 90px;
+  padding-bottom: 0px;
+
+}
+
+.title{
+  padding-top: 30px;
+  text-align: center;
+  color: darkolivegreen;
+}
+.detbut{
+  position: absolute;
+  left: 90px;
+  border-radius: 3px;
+  box-shadow: none;
+  border:5px solid white;
+  cursor: pointer;
+  color: white;
+  background-color: darkolivegreen;
+}
+
+.detbut:hover{
+  background-color: lightgreen;
+  color: black;
+}
